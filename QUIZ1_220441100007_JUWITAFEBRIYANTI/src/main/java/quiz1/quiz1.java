@@ -237,10 +237,10 @@ public class quiz1 extends javax.swing.JFrame {
     }//GEN-LAST:event_bTotalActionPerformed
 
     private void bSelesaiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bSelesaiActionPerformed
-        double harga, bayar, hasil;
-            harga = Double.parseDouble(eHarga.getText());
+        double jharga, bayar, hasil;
+            jharga = Double.parseDouble(eTotal.getText());
             bayar = Double.parseDouble(eBayar.getText());
-            hasil = bayar - harga;
+            hasil = bayar - jharga;
             eKembali.setText(String.valueOf(hasil));
     }//GEN-LAST:event_bSelesaiActionPerformed
 
